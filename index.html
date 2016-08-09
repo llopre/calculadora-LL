@@ -4,12 +4,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Calculadora</title>
+
 </head>
 
 <body>
 	
-	<form type="submit">
-		<input type="text" name="input1">
+	<form name="form_calc">
+		<input type="number" id="input1">
 		<select name="Operacion" id="op-selector">
 			<option value="" selected="true">Elija una opcion</option>
 			<option value="S" >Sumar</option>
@@ -17,10 +18,10 @@
 			<option value="M" >Multiplicar</option>
 			<option value="D" >Dividir</option>
 		</select>
-		<input type="text" name="input2">
-		<button type="submit" >Calcular </button>
+		<input type="number" id="input2">
 	</form>
-
+	<button  onclick="Calcular();" >Calcular </button>
+<script type="text/javascript" src="./main.js"></script>
 </body>
 
 </html>
